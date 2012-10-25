@@ -1,0 +1,24 @@
+{
+	"movies" : [
+		{
+			"id" : 1,
+			"title" : "Bay Rong",
+			"year" : 2009,
+			"cast" : "Ngo Thanh Van, Johny Tri Nguyen",
+			"description" : "Trinh, a mercenary, must complete a series of organized crime jobs for her boss in order to win the release of her kidnapped daughter...",
+			"thumb" : "http://localhost/tmp/thumbs/bayrong.jpg",
+			"trailer" : "http://www.youtube.com/v/Wp08tER8Ni8",
+			"url" : "http://localhost/tmp/bayrong.MP4"
+		},
+		{
+			"id" : 2,
+			"title" : "Cuoi Ngay Keo Lo",
+			"year" : 2012,
+			"cast" : "Ngoc Diep, Thai Hoa, Johny Tri Nguyen",
+			"description" : "Khanh Linh, a fashion magazine editor, is on the verge of losing her job if her next project is not a hit. She finds herself having to work with Son, a successful photographer who she injured in a car accident.",
+			"thumb" : "http://localhost/tmp/thumbs/cuoingaykeolo.jpg",
+			"trailer" : "http://www.youtube.com/v/0GeW_08twb0",
+			"url" : "http://localhost/tmp/cuoingaykeolo.MP4"
+		}
+	]
+}

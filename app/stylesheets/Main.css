@@ -1,0 +1,106 @@
+#SceneMain {
+	position : absolute;
+	left : 0px;
+	top : 0px;
+	width : 1280px;
+	height : 720px;
+	background-color : #ffffff;
+}
+
+#SceneMain #MainView
+{
+	height: 536px;
+	border-bottom: solid white 4px;
+}
+
+
+#SceneMain #MainView #Preview
+{
+	float: left;
+	background: black;
+	width: 956px;
+	height: 100%;
+	border-right: solid white 4px;
+}
+
+#SceneMain #MainView #Preview .hidden
+{
+	display: none;
+}
+
+#SceneMain #MainView #InfoPanel
+{
+	float: left;
+	background: url(../images/bg_infopanel.jpg) repeat;
+	width: 310px;
+	height: 100%;
+	padding-left: 10px;
+}
+
+#SceneMain #MainView #InfoPanel #Title
+{
+	font-size: x-large;
+	margin-top: 20px;
+	color: yellow;
+}
+
+#SceneMain #MainView #InfoPanel #Year
+{
+	margin-top: 20px;
+	color: white;
+}
+
+#SceneMain #MainView #InfoPanel #Cast
+{
+	margin-top: 20px;
+	color: white;
+}
+
+#SceneMain #MainView #InfoPanel #Description
+{
+	margin-top: 20px;
+	color: white;
+}
+
+#SceneMain #MainView #InfoPanel #Buttons
+{
+	margin-top: 40px;
+}
+
+#SceneMain #MainView #InfoPanel #Buttons .button
+{
+	color: white;
+	border-radius: 10px;
+	font-size: x-large;
+}
+
+#SceneMain #MainView #InfoPanel #Buttons .selected
+{
+	border: solid yellow 4px;
+}
+
+#SceneMain #ThumbsView
+{
+	background: repeat-x url(../images/bg_thumbsview.jpg);
+	height: 180px;
+}
+
+#SceneMain #ThumbsView .ThumbObj
+{
+	float: left;
+	width: 299px; /* = (ThumbViewWidth - 2*borderWidth) / nThumbsPerPage(4) */
+	height: 152px; /* = ThumbViewHeight - 2*borderWidth */
+	margin: 10px;
+	overflow: hidden;
+	border-radius: 25px;
+}
+
+#SceneMain #ThumbsView .ThumbObj_id
+{
+	display: none;
+}
+
+#SceneMain #ThumbsView .selected
+{
+	border: solid yellow 4px;
+}
