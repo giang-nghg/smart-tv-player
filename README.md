@@ -10,3 +10,5 @@
 - Open app/App.js, find (Ctrl-F) "getJSON" and modify the url to the MovieList.json file to the one inside your web server
 
 - Run app
+
+Demo: http://www.youtube.com/watch?v=o0mM5cQnUHo&list=PL1zO3q07rqzWfTM6YnzoqJNWGM-iqrqP2&index=1
